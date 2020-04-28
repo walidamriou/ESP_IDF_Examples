@@ -5,13 +5,25 @@
 #include "nvs_flash.h"
 
 /* Event handler is used to tie events from WiFi/Ethernet/LwIP stacks into application logic.
-   In general, event mean somethings that happens and event handler is a method 
-   that's called when something happens, or is attached to an event. so here 
-   we programme to print the result when SYSTEM_EVENT_SCAN_DONE. 
+   In general, event mean somethings that happens and event handler is a method that's called 
+   when something happens, or is attached to an event. so here we programme to print the result
+   when SYSTEM_EVENT_SCAN_DONE. 
+
+   but why use the method of event here?
+   During the course of operating as a WiFi device, certain events may occur that board needs 
+   to know about. These may be of importance or interest to the applications running within it.
+   Since we don't know when, or even if, any events will happen, we can't have our application
+   block waiting for them to occur. Instead what we should do is define a callback function that
+   will be invoked should an event actually occur.
 */
 esp_err_t event_handler(void * ctx, system_event_t * event) {
 
-    //we will be informed that the scan completed when a SYSTEM_EVENT_SCAN_DONE event is published
+    /*
+    we will be informed that the scan completed when a SYSTEM_EVENT_SCAN_DONE event is published, 
+    we get it from the event parameter system_event_t which contain the details of the event:
+     system_event_id_t event_id   and    system_event_info_t event_info
+    */
+
     if (event -> event_id == SYSTEM_EVENT_SCAN_DONE) {
 
         //print Number of access points found
@@ -95,7 +107,10 @@ int app_main(void) {
     on the console, and abort() is called.
     */
 
-    //initializes event handler and error check checks if that function returns succesfully
+    /*
+    esp_event_loop_init() registers a event_handler function to called when the board detects 
+    SYSTEM_EVENT_SCAN_DONE event . so the next line just to register the callback function.
+    */
     ESP_ERROR_CHECK(esp_event_loop_init(event_handler, NULL));
 
     //Initialize the ESP32 WiFi environment
