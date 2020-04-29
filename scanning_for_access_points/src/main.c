@@ -1,3 +1,12 @@
+/* 
+Scanning for access points example
+Noted by: Walid Amriou
+www.walidamriou.com
+
+From Espressif IoT Development Framework Examples by comments (Notes) for Education purpose
+https://github.com/walidamriou/ESP-IDF_Examples
+*/
+
 #include "esp_wifi.h"
 #include "esp_system.h"
 #include "esp_event.h"
@@ -11,8 +20,8 @@
 
    but why use the method of event here?
    During the course of operating as a WiFi device, certain events may occur that board needs 
-   to know about. These may be of importance or interest to the applications running within it.
-   Since we don't know when, or even if, any events will happen, we can't have our application
+   to know about. These may be of importance or interest to the board running within it.
+   Since we don't know when, or even if, any events will happen, we can't have our board
    block waiting for them to occur. Instead what we should do is define a callback function that
    will be invoked should an event actually occur.
 */
@@ -120,8 +129,8 @@ int app_main(void) {
     /*
     -- Set the WiFi API configuration storage type as WIFI_STORAGE_RAM. The default value is WIFI_STORAGE_FLASH
     -- Return: ESP_OK: succeed
-            ESP_ERR_WIFI_NOT_INIT: WiFi is not initialized by esp_wifi_init
-            ESP_ERR_INVALID_ARG: invalid argument
+               ESP_ERR_WIFI_NOT_INIT: WiFi is not initialized by esp_wifi_init
+               ESP_ERR_INVALID_ARG: invalid argument
     */
     ESP_ERROR_CHECK(esp_wifi_set_storage(WIFI_STORAGE_RAM));
     
