@@ -17,7 +17,7 @@ __Espressif IoT Development Framework Examples with comments (Notes) for Educati
  "Website")
  
 #### Boards of development
-* ESP Lolin32 
+* ESP Lolin32   
 ![alt text](https://github.com/walidamriou/ESP-IDF_Examples/blob/master/docs/Boards/esplolin32.png)
 
 
