@@ -7,6 +7,17 @@ __Espressif IoT Development Framework Examples with comments (Notes) for Educati
 * [Connecting to an access point with static ip](https://github.com/walidamriou/ESP-IDF_Examples/tree/master/Connecting_to_an_access_point_with_static_ip "Example 3")
 * [Board as an WiFi access point WAP](https://github.com/walidamriou/ESP-IDF_Examples/tree/master/Board_as_an_WiFi_access_point_WAP "Example 4")
 
+#### Development tools : 
+* [Visual Studio Code:](https://code.visualstudio.com/ "source-code editor developed by Microsoft")
+* [PlatformIO:](https://platformio.org/ "Open source, cross-platform IDE and Unified Debugger")
+
+#### Resources
+* [Kolban's book on ESP32 by Neil Kolban - September 2018] (https://leanpub.com/kolban-ESP32 "Book")
+* [ESPRESSIF ESP-IDF Programming Guide] (https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/index.html
+ "Website")
+
+
+
 #### Licensed by GNU Affero General Public License v3.0 Version 3, 19 November 2007
 Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
 The full license here: https://github.com/walidamriou/ESP-IDF_Examples/blob/master/LICENSE
