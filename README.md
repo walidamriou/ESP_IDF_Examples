@@ -15,8 +15,9 @@ __Espressif IoT Development Framework Examples with comments (Notes) for Educati
 * [Kolban's book on ESP32 by Neil Kolban - September 2018](https://leanpub.com/kolban-ESP32 "Book")
 * [ESPRESSIF ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/index.html
  "Website")
-
-
+ 
+#### Boards of development
+* ESP Lolin32 
 
 #### Licensed by GNU Affero General Public License v3.0 Version 3, 19 November 2007
 Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
