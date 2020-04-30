@@ -12,8 +12,8 @@ __Espressif IoT Development Framework Examples with comments (Notes) for Educati
 * [PlatformIO:](https://platformio.org/ "Open source, cross-platform IDE and Unified Debugger")
 
 #### Resources
-* [Kolban's book on ESP32 by Neil Kolban - September 2018] (https://leanpub.com/kolban-ESP32 "Book")
-* [ESPRESSIF ESP-IDF Programming Guide] (https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/index.html
+* [Kolban's book on ESP32 by Neil Kolban - September 2018](https://leanpub.com/kolban-ESP32 "Book")
+* [ESPRESSIF ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/index.html
  "Website")
 
 
