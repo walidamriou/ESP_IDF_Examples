@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DSDKCONFIG=/media/walidamriou/Data/Data/Projects/Github/ESP-IDF_Examples/Connecting_to_an_access_point/sdkconfig;-DIDF_PATH=/home/walidamriou/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DEXTRA_COMPONENT_DIRS=/home/walidamriou/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
