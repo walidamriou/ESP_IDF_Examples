@@ -18,7 +18,7 @@ __Espressif IoT Development Framework Examples with comments (Notes) for Educati
  
 #### Boards of development
 * ESP Lolin32 
-![alt text](https://github.com/walidamriou/ESP-IDF_Examples/blob/master/docs/Boards/ESP_Lolin32.jpg "ESP Lolin32")
+![alt text](https://github.com/walidamriou/ESP-IDF_Examples/blob/master/docs/Boards/ESP_Lolin32.jpg "ESP Lolin32" =50%x50%)
 
 
 #### Licensed by GNU Affero General Public License v3.0 Version 3, 19 November 2007
