@@ -1,10 +1,12 @@
 /* 
 Connecting to an access point example
-Noted by: Walid Amriou
+Developed by: Walid Amriou
 www.walidamriou.com
 
 From Espressif IoT Development Framework Examples by comments (Notes) for Education purpose
 https://github.com/walidamriou/ESP-IDF_Examples
+
+Last update: April 2020
 */
 
 

@@ -1,10 +1,12 @@
 /* 
 Board as an WiFi access point WAP example
-Noted by: Walid Amriou
+Developed by: Walid Amriou
 www.walidamriou.com
 
 From Espressif IoT Development Framework Examples by comments (Notes) for Education purpose
 https://github.com/walidamriou/ESP-IDF_Examples
+
+Last update: May 2020
 */
 
 #include <freertos/FreeRTOS.h>
@@ -16,8 +18,6 @@ https://github.com/walidamriou/ESP-IDF_Examples
 #include <tcpip_adapter.h>
 #include <lwip/sockets.h>
 #include <stdint.h>
-
-
 
 // The identity of the access point
 #define AP_SSID "ESP32_board_AP"
@@ -61,24 +61,27 @@ esp_err_t event_handler(void * ctx, system_event_t * event) {
     When a station connects, the ESP32 will raise the SYSTEM_EVENT_AP_STACONNECTED event. When a
     station disconnects, we will see the SYSTEM_EVENT_AP_DISCONNECTED event.
     */
-    /*
     if(event -> event_id == SYSTEM_EVENT_AP_STACONNECTED){
         printf("Device connected to the %s WiFi Access Point.\n",AP_SSID);
-        number_devices_connected = wifi_softap_get_station_num();
-        os_printf("number of devices connected now: %d\n", number_devices_connected);
+        
+        //I need to put here code to get the number of Devices connected to AP
 
     }
     if(event -> event_id == SYSTEM_EVENT_AP_STADISCONNECTED){
         printf("Device disconnected from the %s WiFi Access Point.\n",AP_SSID);
 
+        //I need to put here code to get the number of Devices connected to AP
+
     }
-    */
+    
     
     //ESP_OK is esp_err_t value indicating success (no error)
     return ESP_OK;
 }
 
 int app_main(void) {
+
+     
     /* 
     -- nvs_flash_init() Initialize the default NVS partition.
     This API initialises the default NVS partition. 

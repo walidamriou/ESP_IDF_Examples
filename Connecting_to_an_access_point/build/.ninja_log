@@ -820,3 +820,10 @@
 87204	88783	1588215782598756599	esp-idf/esp32/ld/esp32.project.ld	9d2d98a42ef28895
 88783	88803	1588215782654756220	CMakeFiles/Connecting_to_an_access_point.elf.dir/project_elf_src.c.obj	a72da793ebc7c84d
 0	557185	0	CMakeFiles/confserver	6723e3f0ecee279b
+277	531	1588215699627447060	bootloader-prefix/src/bootloader-stamp/bootloader-build	6107c58c2c4119a1
+277	531	1588215699627447060	bootloader/bootloader.elf	6107c58c2c4119a1
+277	531	1588215699627447060	bootloader/bootloader.bin	6107c58c2c4119a1
+277	531	1588215699627447060	bootloader/bootloader.map	6107c58c2c4119a1
+279	1977	1588309129352287678	esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj	b4bc5fd3e5ad12a
+1978	2132	1588309129508288418	esp-idf/app_update/libapp_update.a	e41a6f34e9829c71
+2133	7306	1588309134652312803	esp-idf/esp32/ld/esp32.project.ld	9d2d98a42ef28895
