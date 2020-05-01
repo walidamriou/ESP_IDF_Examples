@@ -1,5 +1,8 @@
 # ESP-IDF Examples
-__Espressif IoT Development Framework Examples with comments (Notes) for Education purpose__
+__Espressif IoT Development Framework Examples with comments (Notes) for Education purpose__  
+
+__If you need help or have note, contact me__   
+   :large_blue_circle: Twitter: [@walidamriou](https://www.twitter.com/walidamriou "Example 1")
 
 #### Examples list: 
 * [Scanning for access points](https://github.com/walidamriou/ESP-IDF_Examples/tree/master/Scanning_for_access_points "Example 1")
