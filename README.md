@@ -1,7 +1,7 @@
 # ESP-IDF Examples
-__Espressif IoT Development Framework Examples with comments (Notes) for Education purpose__  
-________________________________
-__If you need help or have note, contact me__     
+__Espressif IoT Development Framework Examples with comments (Notes) for Education purpose__    
+  
+__If you need help or have note, contact me__       
 * __Twitter:__ [@walidamriou](https://www.twitter.com/walidamriou "Example 1")
 
 #### Examples list: 
