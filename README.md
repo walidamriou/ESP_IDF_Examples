@@ -18,8 +18,9 @@ __If you need help or have note, contact me__
 * [Kolban's book on ESP32 by Neil Kolban - September 2018](https://leanpub.com/kolban-ESP32 "Book")
 * [ESPRESSIF ESP-IDF Programming Guide (API Reference)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/index.html
  "Website")
+* [Sample ESP32 snippets and code fragments by Neil Kolban (repository Github)](https://github.com/nkolban/esp32-snippets "Github")
 * [Beej's Guide to Network Programming Brian “Beej Jorgensen” Hall](https://github.com/espressif/esp-idf "Website")
-* [Espressif IoT Development Framework (examples folder)](http://beej.us/guide/bgnet/ "Github")
+* [Espressif IoT Development Framework (repository Github)](http://beej.us/guide/bgnet/ "Github")
  
  
  
