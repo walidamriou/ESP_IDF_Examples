@@ -16,7 +16,7 @@ __If you need help or have note, contact me__
 
 #### Resources
 * [Kolban's book on ESP32 by Neil Kolban - September 2018](https://leanpub.com/kolban-ESP32 "Book")
-* [ESPRESSIF ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/index.html
+* [ESPRESSIF ESP-IDF Programming Guide (API Reference)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/index.html
  "Website")
  
 #### Boards of development
