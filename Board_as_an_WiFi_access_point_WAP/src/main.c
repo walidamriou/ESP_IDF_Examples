@@ -54,7 +54,7 @@ esp_err_t event_handler(void * ctx, system_event_t * event) {
         */
         printf("WiFi Access Point started\n");
         printf("WiFi AP name: %s \n",AP_SSID); //print WiFi AP name
-        printf("WiFi AP password: %s \n",AP_PASSWORD); //Print WiFi AP password
+        printf("WiFi AP password: %s \n",AP_PASSWORD); //Print WiFi AP passwordwifi_ap_list_t apList[10];
     }
     
     /*
@@ -64,14 +64,23 @@ esp_err_t event_handler(void * ctx, system_event_t * event) {
     if(event -> event_id == SYSTEM_EVENT_AP_STACONNECTED){
         printf("Device connected to the %s WiFi Access Point.\n",AP_SSID);
         
-        //I need to put here code to get the number of Devices connected to AP
+        //the number of stations(devices) connected to the AP
+        // struct wifi_sta_list_t is the list of stations associated with the ESP32 Soft-AP. 
+        wifi_sta_list_t count;
+        esp_wifi_ap_get_sta_list(&count);
+        //int  int num is the number of stations in the list (other entries are invalid)
+        printf("Number of stations connected Now = %d\n", count.num);
 
     }
     if(event -> event_id == SYSTEM_EVENT_AP_STADISCONNECTED){
         printf("Device disconnected from the %s WiFi Access Point.\n",AP_SSID);
 
-        //I need to put here code to get the number of Devices connected to AP
-
+        //the number of stations(devices) connected to the AP
+        // struct wifi_sta_list_t is the list of stations associated with the ESP32 Soft-AP. 
+        wifi_sta_list_t count;
+        esp_wifi_ap_get_sta_list(&count);
+        //int  int num is the number of stations in the list (other entries are invalid)
+        printf("Number of stations connected Now = %d\n", count.num);
     }
     
     
