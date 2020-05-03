@@ -21,9 +21,8 @@ __If you need help or have note, contact me__
 * [Sample ESP32 snippets and code fragments by Neil Kolban (repository Github)](https://github.com/nkolban/esp32-snippets "Github")
 * [Beej's Guide to Network Programming Brian “Beej Jorgensen” Hall](https://github.com/espressif/esp-idf "Website")
 * [Espressif IoT Development Framework (repository Github)](http://beej.us/guide/bgnet/ "Github")
- 
- 
- 
+* [ Kolban Technical Tutorials Youtube channel](https://www.youtube.com/channel/UChKn_BlaVrMrhEquPNI6HuQ "Youtube")
+
 #### Boards of development
 * ESP Lolin32   
 if you use other ESP32 board you can see [PlatformIO Platform options](https://docs.platformio.org/en/latest/projectconf/section_env_platform.html "Website") to change the default board in the source to your board type.
