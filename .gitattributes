@@ -1,2 +1,2 @@
 *.CMake linguist-detectable=false
-*.c linguist-detectable=true
+*.C linguist-detectable=true
