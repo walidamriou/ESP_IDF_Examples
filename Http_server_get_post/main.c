@@ -220,6 +220,7 @@ static const httpd_uri_t ctrl = {
     .user_ctx  = NULL
 };
 
+/* Function for starting the webserver */
 static httpd_handle_t start_webserver(void)
 {
     httpd_handle_t server = NULL;
