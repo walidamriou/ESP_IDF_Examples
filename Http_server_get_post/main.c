@@ -109,6 +109,7 @@ static const httpd_uri_t hello = {
 };
 
 /* An HTTP POST handler */
+/* Our URI handler function to be called during POST /uri request */
 static esp_err_t echo_post_handler(httpd_req_t *req)
 {
     char buf[100];
