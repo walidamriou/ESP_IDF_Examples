@@ -23,15 +23,23 @@ handlers for the web server.
 //In each C file that uses logging functionality, We define the TAG variable
 static const char *TAG = "example";
 
-/* An HTTP GET handler */
-/* Our URI handler function to be called during GET /uri request */
+/* An HTTP GET handler Our URI handler function to be called during GET /hello request */
 static esp_err_t hello_get_handler(httpd_req_t *req)
 {
     char*  buf;
     size_t buf_len;
 
-    /* Get header value string length and allocate memory for length + 1,
-     * extra byte for null termination */
+    /* 
+       -- Get header value string length and allocate memory for length + 1,
+       extra byte for null termination 
+      
+       -- we use httpd_req_get_hdr_value_len() to know the right buffer length and
+       this function Search for a field in request headers and return the string
+       length of it’s value. 
+       
+       -- we use httpd_req_get_hdr_value_str() to get the value string of a field 
+       from the request headers. */
+    
     buf_len = httpd_req_get_hdr_value_len(req, "Host") + 1;
     if (buf_len > 1) {
         buf = malloc(buf_len);
@@ -60,8 +68,12 @@ static esp_err_t hello_get_handler(httpd_req_t *req)
         free(buf);
     }
 
-    /* Read URL query string length and allocate memory for length + 1,
-     * extra byte for null termination */
+    /* 
+    Read URL query string length and allocate memory for length + 1,
+    extra byte for null termination 
+    
+    we use httpd_req_get_url_query_len() to get Query string length from the request URL. 
+    */
     buf_len = httpd_req_get_url_query_len(req) + 1;
     if (buf_len > 1) {
         buf = malloc(buf_len);
@@ -241,6 +253,7 @@ static httpd_handle_t start_webserver(void)
     return NULL;
 }
 
+/* Function for stopping the webserver */
 static void stop_webserver(httpd_handle_t server)
 {
     // Stop the httpd server
