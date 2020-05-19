@@ -1,6 +1,9 @@
 /* 
 Simple HTTP Server Example
 
+A simple example that demonstrates how to create GET and POST
+handlers for the web server.
+
 */
 
 #include <esp_wifi.h>
@@ -16,10 +19,8 @@ Simple HTTP Server Example
 
 #include <esp_http_server.h>
 
-/* A simple example that demonstrates how to create GET and POST
- * handlers for the web server.
- */
 
+//In each C file that uses logging functionality, We define the TAG variable
 static const char *TAG = "example";
 
 /* An HTTP GET handler */
