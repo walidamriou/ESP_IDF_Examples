@@ -24,6 +24,7 @@ handlers for the web server.
 static const char *TAG = "example";
 
 /* An HTTP GET handler */
+/* Our URI handler function to be called during GET /uri request */
 static esp_err_t hello_get_handler(httpd_req_t *req)
 {
     char*  buf;
