@@ -142,6 +142,7 @@ static esp_err_t echo_post_handler(httpd_req_t *req)
     return ESP_OK;
 }
 
+/* URI handler structure for POST /echo */
 static const httpd_uri_t echo = {
     .uri       = "/echo",
     .method    = HTTP_POST,
