@@ -69,11 +69,12 @@ static esp_err_t hello_get_handler(httpd_req_t *req)
     }
 
     /* 
-    Read URL query string length and allocate memory for length + 1,
+    -- Read URL query string length and allocate memory for length + 1,
     extra byte for null termination 
     
-    we use httpd_req_get_url_query_len() to get Query string length from the request URL. 
+    -- we use httpd_req_get_url_query_len() to get Query string length from the request URL. 
     */
+
     buf_len = httpd_req_get_url_query_len(req) + 1;
     if (buf_len > 1) {
         buf = malloc(buf_len);
