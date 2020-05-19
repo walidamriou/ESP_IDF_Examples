@@ -98,7 +98,13 @@ static esp_err_t hello_get_handler(httpd_req_t *req)
         free(buf);
     }
 
-    /* Set some custom headers */
+    /* 
+    -- Set some custom headers 
+    
+    -- we use httpd_resp_set_hdr() because it's API to append any additional headers. 
+    and This API sets any additional header fields that need to be sent in the response.
+    
+    */
     httpd_resp_set_hdr(req, "Custom-Header-1", "Custom-Value-1");
     httpd_resp_set_hdr(req, "Custom-Header-2", "Custom-Value-2");
 
