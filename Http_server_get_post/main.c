@@ -99,6 +99,7 @@ static esp_err_t hello_get_handler(httpd_req_t *req)
     return ESP_OK;
 }
 
+/* URI handler structure for GET /hello */
 static const httpd_uri_t hello = {
     .uri       = "/hello",
     .method    = HTTP_GET,
