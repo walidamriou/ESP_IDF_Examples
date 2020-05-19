@@ -73,6 +73,9 @@ static esp_err_t hello_get_handler(httpd_req_t *req)
     extra byte for null termination 
     
     -- we use httpd_req_get_url_query_len() to get Query string length from the request URL. 
+
+    -- we use httpd_query_key_value() to Helper function to get a URL query tag from a query 
+    string of the type param1=val1&param2=val2. 
     */
 
     buf_len = httpd_req_get_url_query_len(req) + 1;
