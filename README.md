@@ -26,6 +26,22 @@ __If you need help or have note, contact me__
 * ESP Lolin32   
 if you use other ESP32 board you can see [PlatformIO Platform options](https://docs.platformio.org/en/latest/projectconf/section_env_platform.html "Website") to change the default board in the source to your board type.
 
-#### Licensed by GNU Affero General Public License v3.0 Version 3, 19 November 2007
-Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
-The full license here: https://github.com/walidamriou/ESP-IDF_Examples/blob/master/LICENSE
+
+### Copyright CC 2020 Walid Amriou
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+__You are free to:__
+  * Share — copy and redistribute the material in any medium or format
+  * Adapt — remix, transform, and build upon the material
+The licensor cannot revoke these freedoms as long as you follow the license terms.  
+
+__Under the following terms:__
+  * Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+  * NonCommercial — You may not use the material for commercial purposes.
+  * ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+  * No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+
+the software or Code or Scripts or any files in this source is provided "as is" and the author disclaims all warranties with regard to this files including all implied warranties of merchantability and fitness. in no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software or code or scripts or any files in this source.
+
